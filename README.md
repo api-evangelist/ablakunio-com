@@ -1,4 +1,4 @@
-# ablakunio-com
+# Ablakunio – SM-UNIO Nyílászáró Kft.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ablakunio-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ablakunio.com/
+Ablakunio – SM-UNIO Nyílászáró Kft. provides premium plastic windows, custom doors, and shading technology in Tiszafüred, Hungary. They offer a showroom, on‑site surveys, professional installation, and a genuine warranty. Their free price‑API delivers cost estimates for window sizes via a JSON‑RPC MCP endpoint, and an OpenAPI 3.1 REST description is publicly available without registration.
+
+**Areas:** Windows · Doors · Construction · Hungary · Pricing
+
+## Ablakunio – SM-UNIO Nyílászáró Kft. on APIs.io
+
+Everything profiled for Ablakunio – SM-UNIO Nyílászáró Kft. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ablakunio-com/](https://apis.io/providers/ablakunio-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Inventory API](https://apis.io/apis/ablakunio-com/ablakunio-com-inventory-api/) — Raktárkészlet
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Lead API](https://apis.io/apis/ablakunio-com/ablakunio-com-lead-api/) — Ajánlatkérés / visszahívás
+- [Ablakunio – SM-UNIO Nyílászáró Kft. MCP API](https://apis.io/apis/ablakunio-com/ablakunio-com-mcp-api/) — Model Context Protocol végpont AI-ágenseknek
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Pricing API](https://apis.io/apis/ablakunio-com/ablakunio-com-pricing-api/) — Egyedi méretű árbecslés
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ablakunio Com Agentic Access](https://apis.io/agentic-access/ablakunio-com/ablakunio-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [InventoryResponse](https://apis.io/schemas/ablakunio-com/ablakunio-com-inventory-response/)
+- [LeadRequest](https://apis.io/schemas/ablakunio-com/ablakunio-com-lead-request/)
+- [LeadResponse](https://apis.io/schemas/ablakunio-com/ablakunio-com-lead-response/)
+- [PriceEstimateRequest](https://apis.io/schemas/ablakunio-com/ablakunio-com-price-estimate-request/)
+- [PriceEstimateResponse](https://apis.io/schemas/ablakunio-com/ablakunio-com-price-estimate-response/)
+- [StockCheckRequest](https://apis.io/schemas/ablakunio-com/ablakunio-com-stock-check-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ablakunio Com Context](https://apis.io/jsonld/ablakunio-com/ablakunio-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ablakunio – SM-UNIO Nyílászáró Kft. API Rules](https://apis.io/rules/ablakunio-com/ablakunio-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ablakunio Com Domain Security](https://apis.io/security/ablakunio-com/ablakunio-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ablakunio.com/)
+- [Blog](https://www.ablakunio.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 31.4** — thin · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 8.8 |
+| Access clarity | 0.0 |
+
+**Agent readiness 34.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ablakunio-com/](https://apis.io/providers/ablakunio-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ablakunio – SM-UNIO Nyílászáró Kft.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ablakunio-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
