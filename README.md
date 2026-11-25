@@ -83,13 +83,19 @@ Everything profiled for Ablakunio – SM-UNIO Nyílászáró Kft. is published o
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ablakunio-com-mcp.yml](https://apis.io/servers/ablakunio-com/ablakunio-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Ablakunio Com Agentic Access](https://apis.io/agentic-access/ablakunio-com/ablakunio-com-agentic-access/)
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Agentic Access](https://apis.io/agentic-access/ablakunio-com/ablakunio-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (7)
 
 The data models the API reads and writes.
 
@@ -99,6 +105,7 @@ The data models the API reads and writes.
 - [PriceEstimateRequest](https://apis.io/schemas/ablakunio-com/ablakunio-com-price-estimate-request/)
 - [PriceEstimateResponse](https://apis.io/schemas/ablakunio-com/ablakunio-com-price-estimate-response/)
 - [StockCheckRequest](https://apis.io/schemas/ablakunio-com/ablakunio-com-stock-check-request/)
+- [StockMatchesResponse](https://apis.io/schemas/ablakunio-com/ablakunio-com-stock-matches-response/)
 
 #### JSON-LD (1)
 
@@ -112,11 +119,30 @@ Spectral rulesets for the provider's contracts.
 
 - [Ablakunio – SM-UNIO Nyílászáró Kft. API Rules](https://apis.io/rules/ablakunio-com/ablakunio-com-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ablakunio Com Domain Security](https://apis.io/security/ablakunio-com/ablakunio-com-domain-security/)
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Authentication](https://apis.io/security/ablakunio-com/ablakunio-com-authentication/)
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Domain Security](https://apis.io/security/ablakunio-com/ablakunio-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Scopes](https://apis.io/scopes/ablakunio-com/ablakunio-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Plans Pricing](https://apis.io/plans/ablakunio-com/ablakunio-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ablakunio – SM-UNIO Nyílászáró Kft. Rate Limits](https://apis.io/rate-limits/ablakunio-com/ablakunio-com-rate-limits/)
 
 ## Where to find this API
 
@@ -127,32 +153,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 31.4** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 24.9** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 57.2 |
-| Contract governance | 79.1 |
+| Discoverability | 71.7 |
+| Contract quality | 60.2 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 8.8 |
+| Developer ergonomics | 4.2 |
 | Access clarity | 0.0 |
 
-**Agent readiness 34.4** — agent-ready
+**Agent readiness 29.4** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | verified |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
@@ -163,8 +189,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ablakunio-com/](https://apis.io/providers/ablakunio-com/).
 
